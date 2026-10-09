@@ -3,5 +3,15 @@
 {% block main %}
 <p>Welcome to our brewsite page</p>
 <p>{{ user }}</p>
+
+<img src="{{ url_for('static', filename='images/224bcb33d60ceaab3195d06e225c4940.avif') }}"
+     alt="Cold glass of beer">
+
+<img src="{{ url_for('static', filename='images/Can-you-hydrate-yourself-with-beer-2048x1365.jpg') }}"
+     alt="Beer hydration">
+
+<img src="{{ url_for('static', filename='images/images.jpg') }}"
+     alt="Beer image">
+
 {% endblock %}
 
